@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill the Form</title>
+</head>
+<body>
+    <h1> Form in HTML </h1>
+    <form>
+        <!--Text Input-->
+        <label>Enter the Name:</label>
+        <input type="text" placeholder="Enter Valid Name">
+        
+        <!--This is For Breaking the line coming in next Line-->
+        <br>
+        
+        <!--Number Input-->
+        <label for="age">Enter the age of the Person:</label>
+        <input id="age" type="number" placeholder="Enter correct age">
+        
+        <br>
+
+        <!-- Password Input-->
+        <div> <!--Div is used to go to NEW Line-->
+        <label>Enter the Correct Password</label>
+         <input type="password" placeholder="Password">
+        </div>
+        <br>
+
+         <!--Email Input-->
+         <div>
+         <label>Enter the Email:</label>
+         <input type="email" placeholder="enter the email man!">
+        </div>
+         <br>
+
+         <!--URL input-->
+         <div>
+         <label>Paste the URL:</label>
+         <input type="url" placeholder="link">
+        </div>
+         <br>
+
+         <!--Phone Number-->
+         <label>Enter the Phone number:</label>
+         <input type="tel" placeholder="valid phone number">
+
+         <br>
+
+         <!--Number with consraints(MIN & MAX)-->
+         <label>Enter the number within the range</label>
+         <input type="number" min="18" max="25">
+
+         <br>
+
+         <!--Range input-->
+         <div>
+         <label>Enter the specific range:</label>
+         <input type="range" min="18" max="25">  
+        </div>
+        
+        <br>
+
+        <!--Date Input-->
+        <div>
+            <label>Enter the Date:</label>
+            <input type="date">
+        </div>
+        <br>
+        <!--Time input-->
+        <label>choose the Time:</label>
+        <input type="time">
+
+        <br>
+
+        <!--Month Type-->
+        <label>Enter the Month:</label>
+        <input type="month">
+        <br>
+        <label>Enter/Choose the week</label>
+        <input type="week">
+        <br>
+        <label>Choose the color</label>
+        <input type="color">
+        <br>
+    <div>
+        <label>choose the options?</label>
+        <label>Java</label>
+        <input type="checkbox">
+        <label>c</label>
+        <input type="checkbox">
+        <label>c#</label>
+        <input type="checkbox">
+    </div>
+        <br>
+        <label>RadioButton:</label>
+        <label>C#</label>
+        <input type="radio">
+        <label>JavaScript</label>
+        <input type="radio">
+    <br>
+        <!--File Upload Input-->
+        <label>Choose the File:</label>
+        <input type="file">
+
+    <br>
+    <!--Text Area Description Input-->
+    <div>
+        <label>Description</label>
+        <textarea></textarea>
+    </div>
+
+    <br>
+    <!--Select DropDown-->
+    <label>Choose your Course</label>
+    <select>
+        <option value="html">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="python3">Python3</option>
+        <option value="python">Python</option>
+        <option value="Csharp">C#</option>
+        <option value="c">C</option>
+    </select>
+    <br>
+
+    <!--Submit Form Input-->
+    <div>
+    <button type="submit">Register</button>
+    </div>  
+</form>
+
+</body>
+</html>
