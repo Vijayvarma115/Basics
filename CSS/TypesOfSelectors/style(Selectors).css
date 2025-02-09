@@ -1,0 +1,37 @@
+/* This is UNIVERSAL SELECTOR */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* 
+REMBEMBER
+****See We have just created the ID's (OR) CLASSE's for the tags 
+{Better approch}-->ID is for only one line(Having highest specificity)
+                    Classes for reusability (Low)**** 
+*/
+
+
+/* To Access that class we start with (.)DOT symbol */
+.hey{
+    color: rgb(54, 163, 200);
+    text-align: center;
+}
+
+/* To Access that id we start with (*)HASH symbol */
+#hai{
+    color:rgb(198, 170, 29);
+}
+
+/* This is Class */
+.high{
+    color:green;
+}
+
+/* This Attribute Selector like wise l means Low  and h means High*/
+[data="h"]{
+    color:lightyellow;
+} 
+
+/* This is Descendent Selector */

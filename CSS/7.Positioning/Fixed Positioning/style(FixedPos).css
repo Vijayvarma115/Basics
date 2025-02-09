@@ -1,0 +1,24 @@
+/* This is for FIXED Position */
+.Fixed-position{
+    padding: 15px;
+    text-align: center;
+    background: green;
+    height: 25px;
+    color: whitesmoke;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+}
+
+.fixed-button{
+    position: fixed;
+    bottom: 5px;
+    bottom: 0;
+    right: 0;
+    background: orange;
+    height: 30px;
+    border-radius: 50px;
+    /* This changes the cursor to hand shape we have differnetdifferent one */
+    cursor:crosshair;
+}

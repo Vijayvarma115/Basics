@@ -1,0 +1,53 @@
+/* This is For Static Position s */
+.hai{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: rgb(38, 205, 194) ;
+
+}
+.bye{
+    position: static;
+
+    /* This Effects are not applied Becoz we fixed the position-->STATIC */
+    /*remainder:In DEFAULT they are static only*/
+    bottom:120px;
+    right:200px;
+}
+
+
+/* This is For Absolute Positioning */
+.box{
+    width:190px;
+    height: 200px;
+    background-color: #c41212;
+    color:greenyellow;
+}
+
+.box1{
+    position:absolute;
+    right:20px;
+    bottom:340px;
+}
+
+
+/* This is Used to Understand the Relative Positioning */
+/* We can see it is Just Moving in This Area only */
+.Container{
+    border:9px solid black;
+    padding: 15px;
+    position: relative;
+}
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.absolute{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+

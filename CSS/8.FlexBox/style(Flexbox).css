@@ -1,0 +1,53 @@
+/* This is PARENT Class */
+.Container{
+    background-color: rgb(176, 176, 62);
+    height: 100vh;
+    border: 2px solid white;
+    display: flex;
+    /* Having row,row-reverse,column,colum-reverse */
+    flex-direction: row;
+    /* We have " space-around,space-evenly " */
+    justify-content: center;
+
+    /* This is just started from the END of the window and we same properties as ABOVE*/
+    align-items: center;
+}
+
+/* This are  childrens common CLASS */
+.box{
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+
+
+
+/* This are  CHILDrens CLASS */
+.box1{
+    background-color: rebeccapurple;
+    align-self: flex-end;
+    flex-grow: 2;
+}
+
+
+.box2{
+    background-color: rgb(41, 148, 248);
+    align-self: flex-start;
+    flex-grow: 3;
+}
+
+
+
+.box3{
+    background-color: rgb(81, 246, 21);
+    align-self: flex-start  ;
+    flex-grow: 4;
+}
+
+
+.box4{
+    background-color: rgb(225, 140, 4);
+    align-self: flex-end;
+    flex-grow: 6;
+}

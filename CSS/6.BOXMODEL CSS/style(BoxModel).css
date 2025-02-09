@@ -1,0 +1,19 @@
+/* This is For BORDER of the Box */
+.box{
+    background-color: yellow;
+    width: 320px;
+    height: 320px;
+    /* border:8px solid green; */
+    border-top: 20px solid red;
+    border-bottom: 20px dashed green;
+    border-left: 20px dotted grey;
+    border-right: 20px double blue;
+
+    /* Here itself we get the PADDING BOX (Space between the border and the text(what we call CONTENT))*/
+    padding: 15px;
+    padding-left: 20px;
+    /* EXPLORE MORE */
+
+    /* This is MARGIN BOX (Gives the space to the box)*/
+    margin: 20px;
+}

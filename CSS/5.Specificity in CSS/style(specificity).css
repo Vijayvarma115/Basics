@@ -1,0 +1,18 @@
+/* ID Selector  HIGH(100points)*/
+#h{
+    color:red;
+}
+
+/* Class Selector  MEDIUM(10points)*/
+.end{
+    color:yellowgreen;
+}
+
+
+
+
+/* This Change will NOT Reflect(low points cmp to others) */
+/* Element Selector LOW(1point)*/
+p{
+    color:aqua
+}

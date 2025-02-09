@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+/* Default for Desktop View */
+.header{
+    background-color: aqua;
+    color:darkred;
+    padding: 15px;
+    height: 150px;
+}
+
+
+
+/* SMALLER DESKTOP Upto This 1440px we will get this EFFECT only (If exceeds this px we will get DEFAULT ONE)*/
+@media(max-width:1440px){
+    .header{
+        background-color: darkorange;
+    }
+    p{
+        color:darkgreen;
+    }
+}
+
+/* Tablets */
+@media(max-width:1200px){
+    .header{
+        background-color: darkgrey;
+    }
+    p{
+        color:saddlebrown;
+    }
+}

@@ -1,0 +1,67 @@
+/* Universal Selector */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Default for mobile View */
+.header{
+    background-color: yellowgreen;
+    height: 100vh;
+    
+}
+
+/* Large Phones */
+
+/* @media(min-width:375px){
+    .header{
+        background-color: orange;
+    }
+    p{
+        color:red;   
+    }
+} */
+
+
+    /* OR */
+/*Query using Screen*/
+/* BOTH ARE SAME */
+@media screen and (min-width:375px){
+    .header{
+        background-color: orange;
+    }
+    p{
+        color:red;   
+    }
+}
+
+/* Tablets */
+
+@media(min-width:768px){
+    .header{
+        background-color: blue;
+    }
+    p{
+        color:darkslategrey;
+    }
+}
+
+/* Small Desktops */
+@media(min-width:1280px){
+    .header{
+        background-color: brown;
+    }
+    p{
+        color: grey;
+    }
+}
+
+/* Large Desktops  */
+@media(min-width:1440px){
+        .header{
+            background-color: chartreuse;
+        }
+        p{
+            color:black;
+        }
+}

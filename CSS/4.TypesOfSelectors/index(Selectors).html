@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExternalCSS</title>
+    <!--External file link(style.CSS)-->
+    <!--
+    rel means RealtionShip
+    href means add path
+    -->
+    <link rel="stylesheet" href="./style(Selectors).css">
+</head>
+<body>
+    <!--Used For CLASS Selector-->
+    <h1 class="hey">External CSS is Crazy</h1>
+    <ul>
+        <li>Course Description:</li>
+    </ul>
+
+    <!--This is Used For ID Selector-->
+    <p id="hai">This course is perfect for anyone looking to learn fullstack web development in 2025. 
+        It covers all the latest technologies and frameworks that you'll
+         need to know to build today's modern websites and web applications.
+        We'll start by learning <span class="high">HTML, CSS, and JavaScript</span>, the fundamental 
+        <!--Span is to just highlight a specific word in paragraph without effecting other text we can modify as needed-->
+        technologies of the web. Then we'll move on to more advanced topics 
+        like React, React Redux, React Query Node js, and MongoDB. By the end 
+        of the course, you'll  build  <span class="high">different projects</span> ranging from a simple website to a fully-fledged web app.
+        This course is designed for you to build your own business or a new career, and become an expert web developer.
+        You <span class="high">don't need any previous experience</span> in website development or programming as this course is designed in such a way that 
+        it can be done even if you have no coding or web development background.
+    </p>
+    
+    <div>
+    <a href=""><big>Click Me!</big></a>
+    </div>
+
+    <!--Used For ATTRIBUTE Selector-->
+    <ul>
+        <li data="h">java</li>
+        <li data="l">C</li>
+        <li data="h">python</li>
+        <li data="l">mATLAB</li>
+        
+    </ul>
+    <br>
+    <br>
+    <br>
+    <!--Used For DESCENDENT Selector-->
+    <h1>Descendent Selector Demo</h1>
+    <!--Container has 3 children(h2,p,div)-->
+    <div class="container">
+        <h2>This is the Heading inside the Container</h2>
+        <p>This is a paragraphdirectly inside the container</p>
+
+        <div>
+            <p>
+                This is the Nested paragraph(Still effected by descendent)
+            </p>
+            <p class="special">This is Special paraGraph</p>
+        </div>
+
+    </div>
+
+    <p>
+        This para is Outside the Container and offcourse is not effected by the descendant Selector
+    </p>
+    <br>
+    <footer>End of the paragraph</footer>
+
+</body>
+</html>

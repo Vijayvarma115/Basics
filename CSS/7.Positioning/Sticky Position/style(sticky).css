@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px;
+}
+.container{
+    max-width: 1000px;
+    margin:100px;
+    background-color: yellow;
+}
+
+.content-section{
+    background-color: re10
+}
+
+.sticky{
+    background-color: green;
+    position: sticky; 
+    padding: 15px;   
+    top:50px;
+}

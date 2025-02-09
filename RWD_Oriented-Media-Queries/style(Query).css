@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* For LandScape */
+@media(orientation :landscape){
+    .main{
+        height:190px;
+        background-color: blue;
+    }
+}   
+
+/* For Portrait */
+@media screen and (orientation:portrait){
+    .main{
+        height: 200px;
+        background-color: yellow;
+    }
+}
+
